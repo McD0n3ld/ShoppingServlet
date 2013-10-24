@@ -16,6 +16,11 @@ import javax.servlet.http.HttpSession;
 import shopping.CD;
 
 public class ShoppingServlet extends HttpServlet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8705831569797721077L;
+
 	public void init(ServletConfig conf) throws ServletException {
 		super.init(conf);
 	}
